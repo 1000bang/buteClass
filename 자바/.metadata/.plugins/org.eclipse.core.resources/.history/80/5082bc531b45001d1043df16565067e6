@@ -1,0 +1,36 @@
+package io_ex.ch05;
+
+import java.io.Externalizable;
+import java.io.IOException;
+import java.io.ObjectInput;
+import java.io.ObjectOutput;
+import java.io.Serializable;
+
+// Serializable - 직렬화
+public class Student implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	String name;
+	String tel;
+	int age;
+
+	// 기본 생성자를 넣어줘야 한다.
+
+	// 컴파일러가 기본 생성자 알아서 넣어줌 ㅎㅎ
+	// 근데 사용자 정의 생성자가 하나라도 있으면 기본 생성자 안 넣어줌
+	public Student(String name, String tel, int age) {
+		super();
+		this.name = name;
+		this.tel = tel;
+		this.age = age;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", tel=" + tel + ", age=" + age + "]";
+	}
+
+}

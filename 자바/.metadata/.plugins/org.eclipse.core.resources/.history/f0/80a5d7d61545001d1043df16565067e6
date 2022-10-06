@@ -1,0 +1,17 @@
+package io_ex.ch05;
+
+public class Student {
+
+	String name;
+	int age;
+	String tel;
+	
+	
+	public Student(String name, int age, String tel) {
+		this.name = name;
+		this.age = age;
+		this.tel = tel;
+	}
+	
+	
+}

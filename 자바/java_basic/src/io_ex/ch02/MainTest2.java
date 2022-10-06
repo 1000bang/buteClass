@@ -1,0 +1,30 @@
+package io_ex.ch02;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+/*
+ * @author 천병재
+ * 입력스트림 - file
+ * 문자 단위로 사용
+ * 1.7버전 이상부터 오토클로즈 
+ */
+
+public class MainTest2 {
+
+	public static void main(String[] args) {
+
+		// try문 괄호 안에 있어야지 자동으로 닫아줌 !!!
+		try (FileInputStream fis = new FileInputStream("boot_a.txt")) {
+			int i;
+			while ((i = fis.read()) != -1) {
+//				System.out.print((char)fis.read());
+				System.out.print((char)i);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

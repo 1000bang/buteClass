@@ -1,0 +1,59 @@
+package IO_ex.ch04;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+/*
+ * @author 천병재
+ * 문자 단위 출력스트림 
+ * 파일에다가 문자 쓰기
+ */
+
+public class MainTest2 {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		try (FileWriter fw = new FileWriter("writer_1.txt", true)) {
+
+			fw.write('a');
+			fw.write('안');
+			char buf[] = { '반', '가', '워' };
+			fw.write(buf);
+
+		} catch (Exception e) {
+
+		}
+//		try (FileReader fr = new FileReader("reader_1.txt")) {
+//			try (FileWriter fw = new FileWriter("writer_2.txt")) {
+//				int i;
+//				while ((i = fr.read()) != -1) {
+//
+//					fw.write((char) i);
+//				}
+//			}
+//		} catch (Exception e) {
+//			System.out.println("에러");
+//		}
+		
+		copy("reader_1.txt","writer_2.txt");
+		
+	}
+
+	public static void copy(String readData, String writeData) {
+		try (FileReader fr = new FileReader(readData)) {
+			try (FileWriter fw = new FileWriter(writeData)) {
+				int i;
+				while ((i = fr.read()) != -1) {
+
+					fw.write((char) i);
+				}
+			}
+		} catch (Exception e) {
+			System.out.println("에러");
+		}
+
+	}
+
+}

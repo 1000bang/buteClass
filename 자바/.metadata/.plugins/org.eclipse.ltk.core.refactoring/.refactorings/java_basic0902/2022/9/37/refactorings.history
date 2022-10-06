@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;java_basic0905/src/Starcraft3&apos;&#x0D;&#x0A;- Original project: &apos;java_basic0902&apos;&#x0D;&#x0A;- Destination element: &apos;java_basic0905/src/Starcraft3&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     starcraft.Zealot.java&#x0D;&#x0A;     starcraft.Zergling.java&#x0D;&#x0A;     starcraft.Marine.java" description="Copy compilation units" destination="=java_basic0905/src&lt;Starcraft3" element1="/src&lt;starcraft{Zealot.java" element2="/src&lt;starcraft{Zergling.java" element3="/src&lt;starcraft{Marine.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1662345952244" units="3" version="1.0"/>
+</session>

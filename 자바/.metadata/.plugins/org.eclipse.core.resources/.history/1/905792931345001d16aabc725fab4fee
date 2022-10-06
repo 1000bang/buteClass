@@ -1,0 +1,27 @@
+package IO_ex.ch05;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.io.ObjectStreamClass;
+
+public class MainTest3 {
+	public static void main(String[] args) {
+		Student 티모 = new Student("티모", 50, "1234");
+		Student 야스오 = new Student("야스오", 150, "22");
+		Student 애쉬 = new Student("애쉬", 20, "133");
+
+		// 객체를 통으로 데이터를 넣음
+
+		FileOutputStream fos;
+		ObjectOutputStream objectOutputStream;
+		try {
+			fos = new FileOutputStream("object_text.txt");
+			objectOutputStream = new ObjectOutputStream(fos);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+}

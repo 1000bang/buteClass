@@ -1,0 +1,7 @@
+package IO_ex.ch05;
+
+public class MainTest3 {
+	public static void main(String[] args) {
+		Student student = new Student("티모", 50, "1234");
+	}
+}

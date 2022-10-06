@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 7 packages to &apos;java_basic/src&apos;&#x0D;&#x0A;- Original project: &apos;java_basic0905&apos;&#x0D;&#x0A;- Destination element: &apos;java_basic/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     java_basic0905/src/computer&#x0D;&#x0A;     java_basic0905/src/game&#x0D;&#x0A;     java_basic0905/src/Starcraft3&#x0D;&#x0A;     java_basic0905/src/Trans&#x0D;&#x0A;     java_basic0905/src/ch13&#x0D;&#x0A;     java_basic0905/src/ch14&#x0D;&#x0A;     java_basic0905/src/ch15" description="Copy packages" destination="=java_basic/src" element1="/src&lt;computer" element2="/src&lt;game" element3="/src&lt;Starcraft3" element4="/src&lt;Trans" element5="/src&lt;ch13" element6="/src&lt;ch14" element7="/src&lt;ch15" flags="589830" fragments="7" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1665016752217" version="1.0"/>
+</session>

@@ -1,0 +1,35 @@
+package io_ex.ch05;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.io.ObjectStreamClass;
+
+
+//직렬화 
+public class MainTest4 {
+	public static void main(String[] args) {
+		Student 티모 = new Student("티모", 50, "1234");
+		Student 야스오 = new Student("야스오", 150, "22");
+		Student 애쉬 = new Student("애쉬", 20, "133");
+
+		// 객체를 통으로 데이터를 넣음
+
+		FileOutputStream fos;
+	
+		try {
+			fos = new FileOutputStream("object_text.txt");
+			ObjectOutputStream objectOutputStream =
+					new ObjectOutputStream(new FileInputStream("object_text.txt"));
+			//문자단위가 아닌 객체단위로 사용하고 싶다면
+			objectOutputStream.writeObject(티모);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+}

@@ -1,0 +1,37 @@
+1663634362547	Delete element
+1663636874924	Copy package
+1663640567121	Copy package
+1663643597723	Copy package
+1663645502650	Copy package
+1663648832721	Rename field 'floor'
+1663650708041	Rename local variable 'downColor'
+1663651881048	Copy package
+1663652096184	Delete element
+1663652596455	Rename local variable 'bottomColor'
+1663654637814	Delete element
+1663654745824	Delete element
+1663665084562	Delete element
+1663719116529	Copy package
+1663721330493	Copy package
+1663725677491	Copy compilation unit
+1663730108430	Copy package
+1663730195864	Delete element
+1663730880876	Rename local variable 'leftColor'
+1663730918053	Rename local variable 'rightColor'
+1663732111422	Rename field 'pWay'
+1663736644295	Copy package
+1663741341104	Copy package
+1663747765257	Copy package
+1663815929752	Copy package
+1663815936651	Delete element
+1663815941773	Copy package
+1663817193395	Copy compilation unit
+1663817261845	Copy compilation unit
+1663817269868	Copy compilation unit
+1663817272645	Copy compilation unit
+1663817294128	Copy compilation units
+1663817334582	Copy compilation units
+1663817363641	Move compilation unit
+1663817368220	Move compilation unit
+1663817396998	Copy compilation unit
+1663824876142	Extract method 'checkingPlayerPosition'

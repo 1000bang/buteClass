@@ -1,0 +1,10 @@
+package io_ex.ch06;
+
+import java.io.FileOutputStream;
+
+public class StudentMainTest {
+	public static void main(String[] args) {
+		//기반스트림 준비
+		FileOutputStream fos = new FileOutputStream("fos.txt");
+	}
+}

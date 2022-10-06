@@ -1,0 +1,27 @@
+package io_ex.ch05;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.io.ObjectStreamClass;
+
+//직렬화 
+public class MainTest4 {
+	public static void main(String[] args) {
+
+		try {
+			//fos = new FileOutputStream("object_text.txt");
+			ObjectOutputStream objectOutputStream;
+
+			// 문자단위가 아닌 객체단위로 사용하고 싶다면
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+}
