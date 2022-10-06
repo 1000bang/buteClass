@@ -128,6 +128,7 @@ public class MainTest extends JFrame implements ActionListener {
 			}
 			if (e.getSource() == searchButton) {
 				textArea.setText(phoneBookMap.get(searchTextField.getText()).toString());
+				System.out.println(phoneBookMap.containsKey(searchTextField));
 				if (phoneBookMap.containsKey(searchTextField) == true) {
 					searchTextField.setText("데이터 있음");
 				}else {
